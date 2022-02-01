@@ -1,0 +1,223 @@
+/* wat nog te doen
+de filmpjes die hij doorgestuurd heeft kijken om te zien of we wel alles erin hebben gedaan
+bronnen aangeven (site guus meeuwis, internet afbeeldingen, en hulp van meneer van Delft via zijn code en filmpjes,
+geleerd via code academy en w3 schools gebruikt)
+
+wat is inspringen?
+
+images downloaden en in een map zetten, hoe moet je die via een bestand in je html zetten?
+
+
+wat met @media?
+
+zorgen dat ik de flex shit kan uitleggen
+
+hulp met zip */
+
+
+
+
+
+
+.flex-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ background-color: orange;
+ position: sticky;
+ flex-wrap: wrap;
+ padding: 30px;
+}
+
+.flex-container > div {
+  background-color: orange;
+  width: 100px;
+  text-align: auto;
+  line-height: 75px;
+  font-size: 20px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+p {
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+
+/* maakt dit het mooier?*/
+.contact {
+  background-color: orange;
+}
+
+
+
+/*de onderste gaan over de index.html*/
+
+.boss-container {
+  background-color: #F4FBFE;
+  margin: 0px 5%;
+}
+
+.img1 {
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+ background-color: #33B8FF;
+}
+
+.hometekst {
+  display: flex;
+}
+
+.nieuws1 {
+  display: row;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nieuws2 {
+  display: row;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*de onderste gaan over de tickets.html*/
+
+.boss-container2 {
+  background-color: white;
+  margin: 0px 5%;
+}
+
+.tickets {
+  text-align: center;
+  background-image: url(../images/ticketsbackground.jpg);
+}
+
+
+
+/*de onderste gaan over de muziek.html*/
+
+.boss-container3 {
+  margin: 0px 5%;
+  height: 100%;
+  background-color: white;
+
+}
+
+.muziek {
+
+  height: 100%;
+  background-image: url(https://images0.persgroep.net/rcs/PeK3GHoM7XKDtEyuphnH-_wxkYg/diocontent/131325057/_fill/1350/900/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.muziektekst {
+  text-align: center;
+
+
+
+}
+ /* hoe moet je de height en width in html hier in css zetten?*/
+
+.spotify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* de onderste gaan over winkel.html*/
+
+
+.boss-container4 {
+  background-color: white;
+  margin: 0px 5%;
+
+}
+
+.winkel {
+  text-align: center;
+  background-color: lightgrey;
+
+}
+
+/*hoe krijg ik die plaatjes responsive?*/
+
+.image {
+  float: right;
+  width: 33,33%;
+  padding: 5px;
+  margin-left: 125px;
+
+
+  /*transitions?*/
+}
+
+.imagecontainer {
+  clear: both;
+  display: table;
+  overflow: auto;
+
+   transition: width 2s linear 1s;
+}
+
+/*de onderste gaan over overguus.html*/
+
+.boss-container5 {
+  background-color: white;
+  margin: 0px 5%;
+}
+
+.overguus {
+  background-image: url(https://i.ytimg.com/vi/IvIoWm2-9vg/maxresdefault.jpg);
+}
+
+.tekst {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
